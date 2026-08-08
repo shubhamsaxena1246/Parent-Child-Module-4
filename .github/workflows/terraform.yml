@@ -9,9 +9,9 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: environment/dev
+   defaults:
+  run:
+    working-directory: envir/dev
 
     steps:
       - name: Checkout
